@@ -18,3 +18,13 @@ console.log(typeof tamanho); //(Number)
 let tamanho_convertido = Boolean(tamanho); //Convertendo a variável tamanho
 console.log(typeof tamanho_convertido); //Boolean
 console.log("Foi convertido?: "+ tamanho_convertido); //Foi convertido?: true
+
+/*
+Os "valores primitivos" são copiados por valor.
+- Cada variável guarda seu próprio dado, então, alterar uma não afeta a outra.
+Ex: Uma cópia de uma variável qualquer
+
+Os "valores por referência" são copiados por referência.
+- As variáveis apontam para o mesmo objeto na memória, então, alterar uma afeta todas que aquele mesmo valor/índice.
+Ex: Um valor dentro de uma lista
+*/
