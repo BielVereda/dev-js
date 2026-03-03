@@ -1,4 +1,6 @@
-switch (dia) {
+let mes = 3; // Altere o número de 1 a 12
+
+switch (mes) {
     case 1:
         console.log("Janeiro");
         break;
@@ -22,12 +24,19 @@ switch (dia) {
         break;
     case 8:
         console.log("Agosto");
+        break;
     case 9:
         console.log("Setembro");
+        break;
     case 10:
         console.log("Outubro");
+        break;
     case 11:
         console.log("Novembro");
+        break;
     case 12:
         console.log("Dezembro");
+        break;
+    default:
+        console.log("Mês inválido");
 }
