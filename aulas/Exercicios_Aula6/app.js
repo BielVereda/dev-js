@@ -1,0 +1,29 @@
+// 🔹 Função tradicional
+function apresentar(nome, idade) {
+    return "Olá, meu nome é " + nome + " e tenho " + idade + " anos.";
+}
+
+// 🔹 Função anônima
+let dobro = function (numero) {
+    return numero * 2;
+};
+
+// 🔹 Arrow function
+let soma = (a, b) => {
+    return a + b;
+};
+
+// 🔹 Par ou Ímpar
+function verificarParOuImpar(numero) {
+    if (numero % 2 === 0) {
+        return "Par";
+    } else {
+        return "Ímpar";
+    }
+}
+
+// 🧪 Testes
+console.log(apresentar("Gabriel", 18));
+console.log("Dobro de 5:", dobro(5));
+console.log("Soma 7 + 3:", soma(7, 3));
+console.log("10 é:", verificarParOuImpar(10));
