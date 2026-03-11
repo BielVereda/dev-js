@@ -1,6 +1,6 @@
 # 📚 Exercícios de JavaScript
 
-Repositório destinado ao armazenamento das atividades práticas e listas de exercícios desenvolvidas durante as aulas de **Lógica de Programação e JavaScript**.
+Repositório destinado ao armazenamento das atividades práticas e listas de exercícios desenvolvidas durante as aulas de **Front - End**.
 
 ---
 
