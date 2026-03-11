@@ -3,45 +3,114 @@
 Repositório destinado ao armazenamento das atividades práticas e listas de exercícios desenvolvidas durante as aulas de **Lógica de Programação e JavaScript**.
 
 ---
+
 ## 🏫 Informações do Curso
 
 * **Instituição:** Escola SENAI Suíço-Brasileira "Paulo Ernesto Tolle"
 * **Professor:** Lucas Corrêa
-* **Foco:** Fundamentos de JavaScript e Lógica de Programação
+* **Foco:** Fundamentos de JavaScript / Inicialização em React
 
 ---
+
 ## 🚀 Tecnologias Utilizadas
 
-* JavaScript;
-* Node.js;
-* HTML;
+* JavaScript
+* HTML
+* CSS
+* React (em alguns exercícios)
 
 ---
-## 📂 Conteúdo
 
-Os exercícios cobrem diversos tópicos abordados em sala de aula, progredindo de conceitos básicos para avançados, incluindo:
-* Criação e manipulação de variáveis;
-* Tipos de dados e conversões;
-* Funções e escopo;
-* Estruturas condicionais (if/else);
-* Manipulação do DOM e Console;
+## 📁 Estrutura do Projeto
+
+```
+dev-js/
+│
+├── Exercicios_Aula1/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+├── Exercicios_Aula2/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+├── Exercicios_Aula3/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+├── Exercicios_Aula4/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+├── Exercicios_Aula5/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+├── Exercicios_Aula6/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+├── Exercicios_Aula7/
+│   ├── app.js
+│   ├── index.html
+│   ├── style.css
+│   └── README.md
+│
+└── README.md
+```
 
 ---
-## ⚙️ Como rodar os códigos
 
-### 1. Arquivos `.js` (Node.js)
-Para executar os scripts de lógica pura:
+## 🧾 Conteúdo
+
+Os exercícios cobrem diversos tópicos abordados em sala de aula, evoluindo de conceitos básicos para conceitos mais avançados:
+
+* Criação e manipulação de variáveis
+* Tipos de dados e conversões
+* Funções e escopo
+* Estruturas condicionais (`if` / `else`)
+* Manipulação do **DOM**
+* Uso do **console** para depuração
+
+---
+
+## ⚙️ Como rodar os exercícios
+
+### 1️⃣ Arquivos `.html` (Navegador)
+
+Para executar exercícios visuais ou que utilizam o DOM:
+
+1. Abra o arquivo `.html` no navegador (Chrome, Edge ou Firefox).
+2. Caso o exercício utilize `console.log`, abra as **Ferramentas do Desenvolvedor** pressionando **F12**.
+3. Acesse a aba **Console** para visualizar os resultados.
+
+---
+
+### 2️⃣ Arquivos `.js` (Scripts de lógica)
+
+Alguns exercícios podem ser executados diretamente com **Node.js**.
+
 1. Abra o terminal na pasta do arquivo.
 2. Execute o comando:
+
 ```
 node nome_do_arquivo.js
 ```
-2. Arquivos .html (Navegador)
-Para executar os exercícios visuais ou de console:
-
-- Abra o arquivo .html no seu navegador (Chrome, Edge, Firefox).
-
-**OBS:** Se necessário, abra as Ferramentas de Desenvolvedor (F12) e clique na aba Console para ver os logs.
 
 ---
-**Desenvolvido por BielVereda**
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Biel Vereda**
